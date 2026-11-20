@@ -24,7 +24,8 @@ A native Mac console for a handful of well-researched emails a day. You read eve
 | --- | --- |
 | **Get it** | [Zyvor Outreach 0.11.0](https://github.com/zyvorai/outreach/releases/tag/v0.11.0): `ZyvorOutreach-0.11.0.dmg` (the SHA-256 is in the release notes and in `ZyvorOutreach-0.11.0.dmg.sha256`) |
 | **Free 30 days** | Starts on first launch. No key needed. |
-| **After the trial** | A licence key from **sales@zyvor.dev**, entered under **Outreach > Licence…** |
+| **After the trial** | A licence key, entered under **Outreach > Licence…**. Buy at [zyvor.dev/buy](https://zyvor.dev/buy) or **sales@zyvor.dev** |
+| **Price** | INR 14,999 per Mac per year incl. 18% GST in India (about US$151 excl. tax outside India). Team price: INR 11,999 per Mac per year (about US$121 excl. tax), minimum INR 35,997 (about US$363), by invoice. Prices: INR incl. 18% GST in India; US dollars excl. tax elsewhere (VAT, GST or sales tax added where applicable). Pay online by UPI, card or netbanking; international cards work (charged in rupees); or request a US-dollar invoice by bank transfer. Custom pricing: contact sales@zyvor.dev. |
 | **Requirements** | macOS 26 or later |
 | **Notarized** | Developer ID signed and notarized by Apple |
 
