@@ -45,4 +45,4 @@ More in [docs/FAQ.md](docs/FAQ.md) and on the [website](https://zyvorai.github.i
 
 ## Licence and source
 
-Zyvor Outreach is licensed under the [Zyvor Production License v1.0](LICENSE): evaluation is free for 30 days per organization, production use needs a commercial licence. This repository holds the docs, website and downloads. The source code is private. See [docs/LICENSING.md](docs/LICENSING.md).
+Zyvor Outreach is licensed under the [Zyvor Production Licence v2.0](LICENSE). The app has a built-in 30-day trial from first launch; production and any other use needs a paid Order. This repository holds the docs, website and downloads. The source code is private. See [docs/LICENSING.md](docs/LICENSING.md).
