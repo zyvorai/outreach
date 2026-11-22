@@ -8,4 +8,4 @@
 - **Offline.** Keys are verified on your Mac. The app does not contact a licensing server.
 - **Where it is stored.** In your Mac's Keychain, with a protected file in Application Support as a fallback.
 
-The software is licensed under the [Zyvor Production License v1.0](../LICENSE).
+The software is licensed under the [Zyvor Production Licence v2.0](../LICENSE).
