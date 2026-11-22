@@ -45,6 +45,7 @@ footer{padding:40px 16px;font-size:12px;color:var(--fg2);text-align:center;borde
 @media (prefers-reduced-motion:reduce){.reveal{opacity:1;transform:none;transition:none}html{scroll-behavior:auto}}
 @media (max-width:640px){.body{grid-template-columns:1fr}.side{display:none}nav .links{display:none}.row{grid-template-columns:1fr;gap:4px}section{padding:80px 16px}}
 </style>
+<link rel="stylesheet" href="zyvor-buyer.css">
 </head>
 <body>
 <nav><b>Zyvor Outreach</b><div class="links"><a href="#safe">Safety</a><a href="#views">Views</a><a href="#compliance">Compliance</a><a href="#how">How it works</a></div><a href="https://zyvor.dev/schedule?utm_source=outreach&utm_medium=site" class="btn" style="padding:6px 14px;font-size:13px">Book a demo</a></nav>
@@ -54,7 +55,16 @@ footer{padding:40px 16px;font-size:12px;color:var(--fg2);text-align:center;borde
 <p class="eyebrow reveal">Zyvor Outreach</p>
 <h1 class="reveal">Cold email,<br><span class="grad">done carefully.</span></h1>
 <p class="lede reveal">A native Mac console for a handful of well-researched emails a day. You read every message before it goes. Nothing sends by surprise.</p>
-<p class="cta reveal"><a class="btn" href="https://zyvor.dev/schedule?utm_source=outreach&utm_medium=site">Book a demo</a><a class="ghost" href="https://github.com/zyvorai/outreach/releases/tag/v0.11.0">Download the 30-day trial ›</a><a class="ghost" href="#safe">See how it stays safe ›</a></p>
+<div class="buyer" role="group" aria-label="Get Zyvor Outreach">
+<div class="actions two">
+<a class="btn primary" href="https://github.com/zyvorai/outreach/releases/download/v0.11.0/ZyvorOutreach-0.11.0.dmg">Download Zyvor Outreach 0.11.0</a>
+<a class="btn ghost" href="https://zyvor.dev/buy" rel="noopener">Buy a license</a>
+</div>
+<p class="trialnote" style="margin:12px 0 0">Your 30-day trial starts the first time you open the app. No key needed during the trial.</p>
+<p class="sub">ZyvorOutreach-0.11.0.dmg &middot; macOS &middot; <a href="https://zyvor.dev/pricing" rel="noopener">See current prices</a> &middot; <a href="https://github.com/zyvorai/outreach/releases/tag/v0.11.0">All downloads</a></p>
+<p class="trust"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3l8 3v6c0 4.5-3.2 8-8 9-4.8-1-8-4.5-8-9V6z"/><path d="M8.5 12l2.5 2.5 4.5-5"/></svg><span><strong>Verified by Apple:</strong> Developer ID signed and notarized. This applies to the macOS DMG.</span></p>
+<ul class="reqs"><li>Needs macOS 26 or later.</li></ul>
+</div>
 <div class="window reveal" aria-hidden="true">
 <div class="bar"><i></i><i></i><i></i></div>
 <div class="body"><div class="side"><span class="on">Dashboard</span><span>Queue</span><span>Leads</span><span>Templates</span><span>Pipeline</span><span>Replies</span><span>Domain health</span><span>Compliance</span></div>
@@ -62,6 +72,11 @@ footer{padding:40px 16px;font-size:12px;color:var(--fg2);text-align:center;borde
 <div class="mail"><b>Next up · touch 1</b><br>Subject: Mac fleet tooling for Rev IT<br>Hi team, your site describes Rev IT as New Zealand's premium Apple solutions provider…<br><i>Not relevant? Reply STOP and I will not contact you again.</i></div></div></div>
 </div>
 </div>
+</section>
+
+<section class="outcomes" aria-labelledby="outcomes-h">
+<h2 id="outcomes-h">Careful, by design.</h2>
+<ul class="tiles"><li class="tile"><h3>Read every message first</h3><p>Every send is a preview unless you say otherwise. A pre-flight checklist and a 60-second cancel window sit before Send.</p></li><li class="tile"><h3>It stops when something is wrong</h3><p>If the bounce rate passes 5%, or a spam complaint arrives, sending stops on its own and tells you why.</p></li><li class="tile"><h3>Respect is built in</h3><p>Every email carries a plain STOP line. One suppression list is checked on every send, and you can export it any time.</p></li></ul>
 </section>
 
 <section id="safe" class="alt">
@@ -122,13 +137,16 @@ footer{padding:40px 16px;font-size:12px;color:var(--fg2);text-align:center;borde
 <section class="alt">
 <div class="wrap">
 <h2 class="reveal">Send fewer emails.<br><span class="grad">Better ones.</span></h2>
-<p class="cta reveal"><a class="btn" href="https://zyvor.dev/buy">Buy Zyvor Outreach</a><a class="ghost" href="https://github.com/zyvorai/outreach/releases/tag/v0.11.0">Start 30-day trial ›</a><a class="ghost" href="https://zyvor.dev/schedule?utm_source=outreach&utm_medium=site">Book a demo ›</a></p>
-<p class="lede reveal" style="font-size:17px">Signed and notarized for macOS 26 and later. INR 14,999 per Mac per year incl. 18% GST in India (about US$151 excl. tax outside India). Team price: INR 11,999 per Mac per year (about US$121 excl. tax), minimum INR 35,997 (about US$363), by invoice.</p>
-<p class="lede reveal" style="font-size:14px">Prices: INR incl. 18% GST in India; US dollars excl. tax elsewhere (VAT, GST or sales tax added where applicable). Pay online by UPI, card or netbanking; international cards work (charged in rupees); or request a US-dollar invoice by bank transfer. Custom pricing: contact sales@zyvor.dev.</p>
 </div>
 </section>
 
-<footer>© ZyvorAI Labs Private Limited, Pune, India · <a href="https://zyvor.dev">zyvor.dev</a></footer>
+<section class="buy-pointer" id="pricing" aria-labelledby="pricing-h">
+<h2 id="pricing-h">Prices and licenses</h2>
+<p>Current prices, in your currency where available, are on zyvor.dev. Your 30-day trial starts on first launch, so you can try it before you decide.</p>
+<p class="cta"><a class="btn primary" href="https://zyvor.dev/buy" rel="noopener">Buy a license</a><a class="textlink" href="https://zyvor.dev/pricing" rel="noopener">See current prices</a></p>
+</section>
+
+<footer>© ZyvorAI Labs Private Limited, Pune, India · <a href="https://zyvor.dev">zyvor.dev</a> · <a href="https://github.com/zyvorai/outreach/blob/main/LICENSE">License</a> · <a href="mailto:sales@zyvor.dev">Support: sales@zyvor.dev</a></footer>
 
 <script>
 (function(){var els=document.querySelectorAll('.reveal');
